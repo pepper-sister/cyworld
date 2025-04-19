@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.CSS_홈 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    border-radius: 10px;
+    padding: 20px 30px 26px;
+}
+
+.CSS_업데이트 {
+    display: flex;
+    flex-direction: column;
+}
+
+.CSS_제목 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 5px;
+}
+
+.CSS_메인제목 {
+    font-size: 13px;
+    font-weight: 700;
+    color: #55b2d4;
+}
+
+.CSS_서브제목 {
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.CSS_div {
+    width: 100%;
+    border-bottom: 1px solid #999999;
+    margin: 8px 0px;
+}
+
+.CSS_업데이트_내용 {
+    font-size: 11px;
+    font-weight: 400;
+    color: #999999;
+}
+
+.CSS_내비디오 {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.CSS_비디오 {
+    width: 100%;
+    height: 240px;
+    background-color: #c4c4c4;
+}
