@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.CSS_쥬크박스 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    border-radius: 10px;
+    padding: 20px 30px 29px;
+}
+
+.CSS_BGM {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.CSS_제목영역 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.CSS_제목 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 5px;
+}
+
+.CSS_메인제목 {
+    font-size: 13px;
+    font-weight: 700;
+    color: #55b2d4;
+}
+
+.CSS_서브제목 {
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.CSS_div {
+    width: 100%;
+    border-bottom: 1px solid #999999;
+    margin-top: 8px;
+}
+
+.CSS_BGM영역 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 16px;
+}
+
+.CSS_BGM {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CSS_BGM_이미지 {
+    width: 120px;
+    height: 120px;
+}
+
+.CSS_대표BGM_곡명 {
+    font-size: 11px;
+    font-weight: 700;
+    color: #0f465e;
+    margin-top: 10px;
+}
+
+.CSS_대표BGM_아티스트 {
+    font-size: 10px;
+    font-weight: 700;
+    color: #999999;
+}
+
+.CSS_BGM차트 {
+    display: flex;
+    flex-direction: column;
+}
+
+.CSS_BGM차트_테이블 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 9px;
+}
+
+.CSS_BGM차트_테이블 input[type='checkbox'] {
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    border: 1px solid #999999;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.CSS_BGM차트_테이블 input[type='checkbox']:checked {
+    background-color: #999999;
+}
+
+.CSS_BGM차트_카테고리 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    background-color: #eeeeee;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    padding: 3px 20px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #999999;
+}
+
+.CSS_BGM차트_번호 {
+    margin: 0px 18px 0px 24px;
+}
+
+.CSS_BGM차트_곡명 {
+    width: 234px;
+    text-align: left;
+}
+
+.CSS_BGM차트_BGM {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 1px dotted #999999;
+    padding: 3px 20px;
+    font-size: 10px;
+    font-weight: 400;
+    color: #0f465e;
+}
+
+.CSS_BGM_번호 {
+    width: 10px;
+    color: #000000;
+    margin: 0px 19px 0px 31px;
+}
+
+.CSS_BGM_곡명 {
+    width: 234px;
+    text-align: left;
+}
