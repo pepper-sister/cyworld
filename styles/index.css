@@ -149,4 +149,68 @@
     width: 100%;
     height: 100%;
     border: none;
+    position: relative;
+    z-index: 2;
+}
+
+.CSS_카테고리 {
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    position: relative;
+    top: -436px;
+    left: 526px;
+    z-index: 1;
+}
+
+.CSS_카테고리_홈 {
+    width: 60px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #0f465e;
+    border-left: none;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.CSS_카테고리_쥬크박스 {
+    width: 60px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #298eb5;
+    border: 1px solid #0f465e;
+    border-left: none;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.CSS_카테고리_게임 {
+    width: 60px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #298eb5;
+    border: 1px solid #0f465e;
+    border-left: none;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #ffffff;
+    cursor: pointer;
 }
