@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>게임페이지</title>
+        <link rel="stylesheet" href="./styles/game.css" />
+        <script src="./game.js"></script>
+    </head>
+    <body>
+        <div class="CSS_게임">
+            <div class="CSS_제목영역">
+                <div class="CSS_제목">
+                    <div class="CSS_메인제목">GAME</div>
+                    <div class="CSS_서브제목">TODAY CHOICE</div>
+                </div>
+                <div class="CSS_div"></div>
+            </div>
+            <div class="CSS_게임영역">
+                <img src="./images/word.png" alt="끝말잇기" />
+                <div class="CSS_게임제목">끝말잇기</div>
+                <div id="HTML_끝말잇기_제시어" class="CSS_게임설명">
+                    제시어 : 뉴비즈코드
+                </div>
+                <div class="CSS_끝말잇기_입력">
+                    <input
+                        id="HTML_끝말잇기_입력"
+                        type="text"
+                        placeholder="단어를 입력하세요."
+                    />
+                    <button class="CSS_끝말잇기_버튼" onclick="JS_끝말잇기()">
+                        검색
+                    </button>
+                </div>
+                <div id="HTML_끝말잇기_결과" class="CSS_끝말잇기_결과">
+                    결과!
+                </div>
+            </div>
+            <div class="CSS_게임영역">
+                <img
+                    class="CSS_로또_이미지"
+                    src="./images/lotto.png"
+                    alt="로또"
+                />
+                <div class="CSS_게임제목">LOTTO</div>
+                <div class="CSS_게임설명">버튼을 누르세요.</div>
+                <div class="CSS_로또_번호">
+                    <span>3</span>
+                    <span>5</span>
+                    <span>10</span>
+                    <span>24</span>
+                    <span>30</span>
+                    <span>34</span>
+                </div>
+                <button class="CSS_로또_버튼">Button</button>
+            </div>
+        </div>
+    </body>
+</html>
