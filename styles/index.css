@@ -39,10 +39,15 @@
     align-items: center;
     font-size: 9px;
     font-weight: 400;
-    color: #55b2d4;
+    color: #000000;
 }
 
 .CSS_방문자수 {
+    font-size: 11px;
+    color: #ff0000;
+}
+
+.CSS_총방문자수 {
     font-size: 11px;
 }
 
@@ -57,7 +62,10 @@
     font-size: 13px;
     font-weight: 500;
     line-height: 16px;
-    color: #55b2d4;
+}
+
+.CSS_사생활_아이콘 {
+    color: #ff6400;
 }
 
 .CSS_프로필 {
