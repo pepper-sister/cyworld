@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.CSS_레이아웃 {
+    width: 1024px;
+    height: 600px;
+    background-image: url('../images/backgroud.png');
+    padding: 20px;
+}
+
+.CSS_아우터박스 {
+    width: 808px;
+    height: 544px;
+    background-image: url('../images/outerbox.png');
+    padding: 24px 26px;
+}
+
+.CSS_이너박스 {
+    width: 100%;
+    height: 100%;
+}
+
+.CSS_상단내용 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    padding: 15px 21px 7px 44px;
+}
+
+.CSS_방문자 {
+    width: 131px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 9px;
+    font-weight: 400;
+    color: #55b2d4;
+}
+
+.CSS_방문자수 {
+    font-size: 11px;
+}
+
+.CSS_상단내용_제목 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #55b2d4;
+    margin-right: 135px;
+}
+
+.CSS_사생활 {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #55b2d4;
+}
+
+.CSS_프로필 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CSS_메인 {
+    width: 100%;
+    height: 452px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 10px 12px;
+    gap: 2px;
+}
+
+.CSS_프로필 {
+    width: 208px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    border-radius: 10px;
+}
+
+.CSS_프로필_이미지 {
+    width: 148px;
+    height: 133px;
+    background-color: #c4c4c4;
+}
+
+.CSS_프로필_div {
+    width: 100%;
+    border-bottom: 1px dotted #000000;
+    margin: 12px 0px;
+}
+
+.CSS_프로필_내용 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.CSS_프로필_정보 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 12px;
+    color: #999999;
+}
+
+.CSS_프로필_정보 i {
+    width: 12px;
+    height: 12px;
+    color: #000000;
+}
+
+.CSS_기분 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 11px;
+    font-weight: 400;
+    margin-top: 119px;
+    gap: 8px;
+}
+
+.CSS_메인_내용 {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
