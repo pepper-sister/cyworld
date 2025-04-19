@@ -136,7 +136,9 @@
     gap: 8px;
 }
 
-.CSS_메인_내용 {
+.CSS_메인_내용,
+.CSS_메인_내용 iframe {
     width: 100%;
     height: 100%;
+    border: none;
 }
