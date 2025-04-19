@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.CSS_게임 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    border-radius: 10px;
+    padding: 20px 30px 15px;
+}
+
+.CSS_제목영역 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.CSS_제목 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 5px;
+}
+
+.CSS_메인제목 {
+    font-size: 13px;
+    font-weight: 700;
+    color: #55b2d4;
+}
+
+.CSS_서브제목 {
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.CSS_div {
+    width: 100%;
+    border-bottom: 1px solid #999999;
+    margin-top: 8px;
+}
+
+.CSS_게임영역 {
+    width: 222px;
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f6f6f6;
+    border: 1px solid #999999;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.CSS_게임제목 {
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.CSS_게임설명 {
+    font-size: 10px;
+    font-weight: 700;
+    color: #999999;
+}
+
+.CSS_끝말잇기_입력 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.CSS_끝말잇기_입력 input {
+    width: 134px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 8px;
+}
+
+.CSS_끝말잇기_입력 input::placeholder {
+    color: #999999;
+}
+
+.CSS_끝말잇기_버튼 {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+
+.CSS_끝말잇기_결과 {
+    font-size: 11px;
+    font-weight: 700;
+    color: #999999;
+}
+
+.CSS_로또_이미지 {
+    height: 28px;
+}
+
+.CSS_로또_번호 {
+    width: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffe400;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 3px 8px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.CSS_로또_버튼 {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 13px;
+    cursor: pointer;
+}
